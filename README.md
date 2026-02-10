@@ -27,7 +27,7 @@
 ## Структура проекта
 api-testing-project/
 ├── tests/
-│ ├── test_api_basics.py # Основные тесты API
+│   └── test_api_basics.py # Основные тесты API
 ├── requirements.txt # Зависимости
 ├── .gitignore # Игнорируемые файлы
 └── README.md # Документация
@@ -49,10 +49,10 @@ venv\Scripts\activate
 
 # Установить зависимости
 pip install -r requirements.txt
+```
 
-
-### Запуск тестов
-
+# Запуск тестов
+```bash
 # Все тесты
 pytest tests/ -v
 
@@ -60,4 +60,6 @@ pytest tests/ -v
 python tests/test_api_basics.py
 
 # Конкретный файл тестов
+
 pytest tests/test_api_basics.py -v
+```
