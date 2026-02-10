@@ -25,12 +25,12 @@
 - **httpbin.org** - тестовое API
 
 ## Структура проекта
-api-testing-project/
-├── tests/
-│   └── test_api_basics.py # Основные тесты API
-├── requirements.txt # Зависимости
-├── .gitignore # Игнорируемые файлы
-└── README.md # Документация
+api-testing-project/  
+├── tests/  
+│   └── test_api_basics.py # Основные тесты API  
+├── requirements.txt # Зависимости  
+├── .gitignore # Игнорируемые файлы  
+└── README.md # Документация  
 
 
 ## Быстрый старт
@@ -63,3 +63,4 @@ python tests/test_api_basics.py
 
 pytest tests/test_api_basics.py -v
 ```
+
