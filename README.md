@@ -39,8 +39,7 @@ api-testing-project/
 ```bash
 # Клонировать репозиторий
 git clone <url-репозитория>
-cd api-testing-project
-
+cd test_2-main
 # Создать виртуальное окружение
 python -m venv venv
 
@@ -51,7 +50,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-# Запуск тестов
+## Запуск тестов
 ```bash
 # Все тесты
 pytest tests/ -v
@@ -63,4 +62,7 @@ python tests/test_api_basics.py
 
 pytest tests/test_api_basics.py -v
 ```
+## Файл для упрощенного запуска всех тестов:
+
+# run_tests.bat
 
