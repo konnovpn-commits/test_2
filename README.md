@@ -64,5 +64,6 @@ pytest tests/test_api_basics.py -v
 ```
 ## Файл для упрощенного запуска всех тестов:
 
-# run_tests.bat
+### run_tests.bat
+
 
